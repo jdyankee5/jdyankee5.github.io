@@ -15,7 +15,7 @@ document.querySelector('h1').onclick = function() {
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
-let myName = prompt('Please enter your name.');
+let myName = localStorage.getItem('name');
 
 function setUserName() {
   let myName = prompt('Please enter your name.');
